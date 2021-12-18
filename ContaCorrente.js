@@ -3,7 +3,7 @@ export class ContaCorrente extends Conta{
     static numeroContas = 0; 
     constructor(agencia, cliente){
         super(agencia, cliente, 0)
-        ContaCorrente.numeroContas += 1;
+        ContaCorrente.numeroContas += 1;        
     }
 
     // sobrescrever funcionalidade
