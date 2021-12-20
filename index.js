@@ -13,6 +13,8 @@ gerente.cadastrarSenha("2");
 
 const diretorEstaLogado =  Auth.login(diretor, "1");
 const gerenteEstaLogado =  Auth.login(gerente, "2");
+//const testeEstaLogado =  Auth.login("teste", "2");
+
 
 console.log(diretorEstaLogado);
 console.log(gerenteEstaLogado);
